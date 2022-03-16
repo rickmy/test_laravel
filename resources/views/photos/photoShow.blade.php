@@ -14,7 +14,7 @@
           photo path: {{$photoDB->photo}}
         </p>
         <p>
-          date: {{$photoDB->created_at}}
+          date: {{$photoDB->created_at->format('d M Y')}}
         </p>
         <hr>
         <h5>User:</h5>

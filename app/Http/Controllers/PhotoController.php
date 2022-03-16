@@ -44,6 +44,11 @@ class PhotoController extends Controller
    */
   public function store(Request $request)
   {
+
+    $request->validate([
+      'photo'=> 'required'
+    ]);
+
     $uploadPhoto = $request->file('photo')->store('public');
     $userResource = auth()->user();
     $newPhoto = new Photo();

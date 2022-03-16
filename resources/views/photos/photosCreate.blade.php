@@ -21,10 +21,6 @@
                   <label class="custom-file-label" for="photo">Choose file</label>
                 </div>
               </div>
-              <div class="container">
-                <h4>Preview Photo</h4>
-                <img id="imagen" src="" alt="">
-              </div>
               <button class="btn btn-primary btn-block" type="submit">Upload</button>
             </form>
           </div>

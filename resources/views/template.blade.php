@@ -14,7 +14,7 @@
 <body>
 <div class="container p-2">
   <div class="container my-2">
-    <a href="{{ route('photos') }}" class="btn btn-info">Photos</a>
+    <a href="{{ route('photos.index') }}" class="btn btn-info">Photos</a>
     <a href="{{ route('blog') }}" class="btn btn-info">Blog</a>
     <a href="{{ route('aboutUs') }}" class="btn btn-info">About Us</a>
     <a href="{{ route('notes') }}" class="btn btn-info">Notes</a>

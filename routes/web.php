@@ -38,4 +38,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('/courses', 'CourseController');
 Route::resource('/photos', 'PhotoController');
+Route::resource('/books', 'BookController');
 
